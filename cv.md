@@ -28,7 +28,6 @@ function truncate(str, maxlength) {
   return str;
 }
 ```
-
 6. Rsschool-cv (learning project): <https://github.com/oliga-tarasova-1992/rsschool-cv.git>
 
 7. Higher education, Orenburg State University, Marketer
