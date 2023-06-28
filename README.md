@@ -1,1 +1,1 @@
-https://oliga-tarasova-1992.github.io/rsschool-cv/index
+https://oliga-tarasova-1992.github.io/rsschool-cv/
