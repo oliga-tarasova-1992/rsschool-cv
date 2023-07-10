@@ -195,19 +195,22 @@ body{
         margin-right: 10px;
     }
     .contact__image_github{
-        background-image: url(../images/github.svg);
+        background-image: url(../rsschool-cv/img/github.svg);
     }
     .contact__image_vk{
-        background-image: url(../images/vk.svg);
+        background-image: url(../rsschool-cv/img/vk.svg);
     }
     .contact__image_telegram{
-        background-image: url(../images/telegram.svg);
+        background-image: url(../rsschool-cv/img/telegram.svg);    
     }
     .contact__image_email{
-        background-image: url(../images/email.svg);
+        background-image: url(../rsschool-cv/img/email.svg);
+    }
+    .contact__image_discord{
+        background-image: url(../rsschool-cv/img/discord.svg);
     }
     .contact__image_map{
-        background-image: url(../images/map.svg);
+        background-image: url(../rsschool-cv/img/map.svg);
     }
     .contact__link{
         color: var(--text-color);
@@ -379,8 +382,8 @@ body{
             padding: 0 20px;
         }
         .header::before{
-            width: 200px;
-            height: 200px;
+            width: 100px;
+            height: 100px;
         }
         .header__avatar{
             width: 200px;
