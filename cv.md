@@ -6,11 +6,13 @@
 
 * Знакома с кодом HTML.
 
-* <form action="page2.html" method="post">
+```
+ <form action="page2.html" method="post">
   <input type="text" name="name" value="John"><br>
   <input type="number" name="age" value="30"><br>
   <input type="submit" value="Submit">
 </form>
+```
 
 * Орский гуманитарно-технологический институт (филиал) Оренбургского государственного университета Экономический, Маркетинг
 
