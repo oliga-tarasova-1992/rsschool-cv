@@ -1,1 +1,1 @@
-https://github.com/oliga-tarasova-1992/rsschool-cv/blob/gh-pages/cv.md
+[rsschool-cv/cv] (https://oliga-tarasova-1992.github.com/rsschool-cv/cv) 
