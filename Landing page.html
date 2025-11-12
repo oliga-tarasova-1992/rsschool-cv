@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Код Судьбы — Онлайн-анализ судьбы</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            max-width: 1200px;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .cta-button {
+            background-color: #ff5e57;
+            padding: 0.5rem 1rem;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(to bottom, #333, #222);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        #hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Features Section */
+        #features {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .features-grid {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: space-around;
+        }
+
+        .feature h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #222;
+        }
+
+        /* How It Works */
+        #how-it-works {
+            padding: 2rem 0;
+        }
+
+        .steps {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: space-around;
+        }
+
+        .step h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #222;
+        }
+
+        /* Testimonials */
+        #testimonials {
+            background-color: #e9e9f0;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin: 1rem auto;
+            max-width: 600px;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .social-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Код Судьбы</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Особенности</a></li>
+                    <li><a href="#how-it-works">Как работает</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Связаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2>Раскройте свой уникальный Код Судьбы через символику арканов</h2>
+            <p>Персонализированный онлайн-анализ судьбы, созданный для того, чтобы помочь вам понять свою миссию, сильные стороны и жизненные уроки.</p>
+            <!-- Кнопка ведет к чату с @durov в Telegram -->
+            <a href="https://t.me/durov" class="cta-button" target="_blank">Получить свой Код</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container">
+        <h3>Особенности сервиса</h3>
+        <div class="features-grid">
+            <div class="feature">
+                <h4>Уникальный анализ через арканы</h4>
+                <p>Каждое число вашей матрицы интерпретируется через арканы, добавляя глубину и символизм.</p>
+            </div>
+            <div class="feature">
+                <h4>Онлайн-доступность и удобство</h4>
+                <p>Получите доступ к анализу в любое время с интуитивным интерфейсом, который легко использовать.</p>
+            </div>
+            <div class="feature">
+                <h4>Глубокое погружение в символику</h4>
+                <p>Арканы раскрывают скрытые аспекты личности, акцентируя внимание на важных жизненных уроках и возможностях.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="container">
+        <h3>Как работает сервис</h3>
+        <div class="steps">
+            <div class="step">
+                <h4>1. Введите дату рождения</h4>
+                <p>Введите свои данные, чтобы создать персональную матрицу судьбы.</p>
+            </div>
+            <div class="step">
+                <h4>2. Получите матрицу</h4>
+                <p>Ваши числа оживут через арканы, раскрывая скрытые аспекты вашей судьбы.</p>
+            </div>
+            <div class="step">
+                <h4>3. Получите советы и значения</h4>
+                <p>Исследуйте индивидуальные советы, которые помогут понять свою жизненную миссию.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container">
+        <h3>Отзывы наших пользователей</h3>
+        <div class="testimonial">
+            <p>"Код Судьбы помог мне раскрыть свои сильные стороны и понять, какие уроки мне предстоят."</p>
+            <p>- Мария П.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Теперь я лучше понимаю, почему в моей жизни происходят определенные события. Это потрясающе!"</p>
+            <p>- Иван К.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="container">
+        <h3>Свяжитесь с нами</h3>
+        <p>Следите за обновлениями, чтобы не пропустить запуск.</p>
+        <ul class="social-links">
+            <li><a href="#">ВКонтакте</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
